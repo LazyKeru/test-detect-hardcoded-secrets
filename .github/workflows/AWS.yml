@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: AWS
 
 # Controls when the action will run. 
 on:
@@ -24,4 +24,4 @@ jobs:
     steps:
     - run: |
         brew install git-secrets
-        git secrets --scan
+        git secrets --scan .
